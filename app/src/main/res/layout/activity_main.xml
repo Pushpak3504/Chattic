@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHATTIC"
+        android:fontFamily="@font/spacebold"
+        android:textSize="70dp"
+        android:textColor="@color/DarkBlue"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/loginEmailEdt"
+        android:textColor="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customshape"
+        android:drawableStart="@drawable/questionpaper"
+        android:hint="Enter Question"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/MidBlue"
+        android:text="Find Answer"
+        android:fontFamily="@font/spacebold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/loginbtn"
+        android:layout_gravity="center"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        >
+        <TextView
+            android:textColor="@color/DarkBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="output"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/spacemid"/>
+    </ScrollView>
+
+</LinearLayout>

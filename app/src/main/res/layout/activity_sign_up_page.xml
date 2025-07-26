@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpPage"
+    android:background="@drawable/signupbackground"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:fontFamily="@font/spacebold"
+        android:textColor="@color/DarkBlue"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:fontFamily="@font/spacemid"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/customshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Enter Your Name"
+        android:drawableLeft="@drawable/user"
+        android:fontFamily="@font/spacemid"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/uname"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/spacemid"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/customshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Enter Your Email Id"
+        android:drawableLeft="@drawable/email"
+        android:fontFamily="@font/spacemid"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/emailid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/spacemid"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/customshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Create New Pasword"
+        android:drawableLeft="@drawable/password"
+        android:fontFamily="@font/spacemid"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/password"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:fontFamily="@font/spacemid"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/customshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Re-enter The Password"
+        android:drawableLeft="@drawable/confirmpass"
+        android:fontFamily="@font/spacemid"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/confirmPass"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/MidBlue"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Sign Up"
+        android:fontFamily="@font/spacebold"
+        android:textSize="15dp"
+        android:id="@+id/button"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have an Account?"
+            android:fontFamily="@font/spacemid"
+            android:textColor="@color/MidBlue"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:fontFamily="@font/spacemid"
+            android:textColor="@color/DarkBlue"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/login"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444354684799",
+    "project_id": "chattic-b62a5",
+    "storage_bucket": "chattic-b62a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444354684799:android:f4c9315ef2d41a09941c4a",
+        "android_client_info": {
+          "package_name": "com.example.chattic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNea0EHZVEsxInwjCetRAvVWAB8MtA7MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
