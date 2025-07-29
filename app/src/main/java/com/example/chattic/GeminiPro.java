@@ -57,6 +57,7 @@ public class GeminiPro {
 
         return GenerativeModelFutures.from(gm);
 
+
     }
 
 }
