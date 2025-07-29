@@ -1,7 +1,5 @@
 package com.example.chattic;
 
-import static android.view.View.INVISIBLE;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,9 +21,6 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class SignUpPage extends AppCompatActivity {
 
@@ -113,6 +108,7 @@ public class SignUpPage extends AppCompatActivity {
             }
         });
     }
+
 
 
 }

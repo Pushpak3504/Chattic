@@ -20,7 +20,7 @@
         />
 
     <EditText
-        android:id="@+id/loginEmailEdt"
+        android:id="@+id/edtQuestion"
         android:textColor="@color/DarkBlue"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -40,7 +40,7 @@
         android:text="Find Answer"
         android:fontFamily="@font/spacebold"
         android:layout_marginTop="20dp"
-        android:id="@+id/loginbtn"
+        android:id="@+id/findBtn"
         android:layout_gravity="center"
         />
 
@@ -49,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
+        android:id="@+id/progressBar"
         android:visibility="invisible"
         />
     <ScrollView
@@ -63,6 +64,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:textSize="20dp"
+            android:id="@+id/outputTxt"
             android:fontFamily="@font/spacemid"/>
     </ScrollView>
 
